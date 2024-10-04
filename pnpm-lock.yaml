@@ -11,6 +11,9 @@ importers:
       valaxy:
         specifier: 0.19.13
         version: 0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2)
+      valaxy-addon-components:
+        specifier: ^0.0.4
+        version: 0.0.4
       valaxy-addon-waline:
         specifier: ^0.2.0
         version: 0.2.0(typescript@5.6.2)(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2))
@@ -2803,6 +2806,9 @@ packages:
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
+
+  valaxy-addon-components@0.0.4:
+    resolution: {integrity: sha512-mpyDmQzBvzIR1PMEpDP6uVvx2YNVsApxAvLOMld4W+Rrygn+GzIc7h1HOQCOva6VYI3Lr9CheqI13gJlP2CHYg==}
 
   valaxy-addon-waline@0.2.0:
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
@@ -5995,6 +6001,8 @@ snapshots:
       requires-port: 1.0.0
 
   uuid@9.0.1: {}
+
+  valaxy-addon-components@0.0.4: {}
 
   valaxy-addon-waline@0.2.0(typescript@5.6.2)(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2)):
     dependencies:

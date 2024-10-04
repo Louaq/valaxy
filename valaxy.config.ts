@@ -14,6 +14,13 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
+  //设置 valaxy-addon-waline 配置项
+  addons: [
+      addonWaline({
+      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
+      serverURL: 'https://waline-valax-5vysrz9kl-mstf.vercel.app/',
+    }),
+  ],
 
   themeConfig: {
     banner: {
@@ -23,16 +30,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
-	 // 启用评论
-	comment: {
-	   enable: true
-	},
-	// 设置 valaxy-addon-waline 配置项
-	addons: [
-	   addonWaline({
-       serverURL: 'https://your-waline-url',
-      }),	
-	],
+    
     pages: [
       //{
         //name: '我的小伙伴们',
@@ -50,10 +48,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       since: 2024,
-      beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
-      },
+	  
+     
     },
   },
 
