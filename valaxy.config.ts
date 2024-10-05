@@ -11,13 +11,54 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-
+  devtools: false,
   theme: 'yun',
+  markdown: {
+    // default material-theme-palenight
+    // theme: 'material-theme-palenight',
+    theme: {
+      // light: 'material-theme-lighter',
+      light: 'github-light',
+      // dark: 'material-theme-darker',
+      dark: 'github-dark',
+    },
+
+    blocks: {
+      tip: {
+        icon: 'i-carbon-thumbs-up',
+        text: 'ヒント',
+        langs: {
+          'zh-CN': '提示',
+        },
+      },
+      warning: {
+        icon: 'i-carbon-warning-alt',
+        text: '注意',
+      },
+      danger: {
+        icon: 'i-carbon-warning',
+        text: '警告',
+      },
+      info: {
+        text: 'información',
+      },
+    },
+
+    codeTransformers: [
+      // We use `[!!code` in demo to prevent transformation, here we revert it back.
+      {
+        postprocess(code) {
+          return code.replace(/\[\!\!code/g, '[!code')
+        },
+      },
+    ],
+  },
   siteConfig: {
     // 启用评论
     comment: {
       enable: true
     },
+    	
   },
   addons: [
     addonWaline({
@@ -34,28 +75,21 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
-    
-    pages: [
-      //{
-        //name: '我的小伙伴们',
-        //url: '/links/',
-        //icon: 'i-ri-genderless-line',
-        //color: 'dodgerblue',
-      //},
-      //{
-       // name: '喜欢的女孩子',
-        //url: '/girls/',
-        //icon: 'i-ri-women-line',
-        //color: 'hotpink',
-      //},
-    ],
-
     footer: {
       since: 2024,
 	  
      
     },
   },
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   unocss: { safelist },
 })

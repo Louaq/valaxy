@@ -1,20 +1,23 @@
 import { defineSiteConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 export default defineSiteConfig({
+  timezone: 'Asia/Shanghai',
   url: 'https://sprightly-crepe-33cf05.netlify.app/',
   lang: 'zh-CN',
   title: 'BLOG',
+  timezone: 'Asia/Shanghai',
   subtitle: '',
   author: {
+    avatar: 'https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/b.jpg',
 	name: 'Louaq',
     short_name: 'Louaq',
   },
+  description: '这是一个很棒的博客',
   frontmatter: {
     time_warning: true,
   },
   
   mediumZoom: { enable: true },
-  description: '这是一个很棒的博客',
   social: [
     {
       name: 'RSS',
@@ -62,6 +65,50 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
+	type: 'fuse',
+  },
+  fuse: {
+    options: {
+      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+    },
+  },
+  statistics: {
+    enable: true,
+  },
+  encrypt: {
+    enable: true,
+  },
+  sponsor: {
+    enable: false,
+    methods: [
+      {
+        name: '支付宝',
+        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        color: '#00A3EE',
+        icon: 'i-ri-alipay-line',
+      },
+      {
+        name: 'QQ 支付',
+        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
+        color: '#12B7F5',
+        icon: 'i-ri-qq-line',
+      },
+      {
+        name: '微信支付',
+        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        color: '#2DC100',
+        icon: 'i-ri-wechat-pay-line',
+      },
+    ],
+  },
+  redirects: {
+    useVueRouter: true,
+    rules: [
+      {
+        from: '/foo',
+        to: '/about',
+      },
+    ],
   },
 
 })
