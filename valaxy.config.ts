@@ -1,6 +1,6 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-
+import { addonWaline } from 'valaxy-addon-waline'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -19,6 +19,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true
     },
   },
+  addons: [
+    addonWaline({
+      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
+      serverURL: 'https://waline-comments-inky.vercel.app/',
+    }),
+  ],
 
   themeConfig: {
     banner: {
