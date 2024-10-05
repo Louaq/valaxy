@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sprightly-crepe-33cf05.netlify.app/sitemap.xml

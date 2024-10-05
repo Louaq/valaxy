@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>BLOG</title>
+        <link>https://sprightly-crepe-33cf05.netlify.app/</link>
+        <description>这是一个很棒的博客</description>
+        <lastBuildDate>Sat, 05 Oct 2024 09:27:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>BLOG</title>
+            <url>https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/b.jpg</url>
+            <link>https://sprightly-crepe-33cf05.netlify.app/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © Louaq</copyright>
+        <atom:link href="https://sprightly-crepe-33cf05.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[说明文档]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/说明文档</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/说明文档</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>这篇文档主要介绍《基于YOLOv8的农田病虫害检测与分析》的代码实现部分，整篇论文的目的主要是改进YOLOv8的网络结构，使其在检测病虫害的精度和实时性上有所提升。接下来，我将介绍如何从零开</p>
+</blockquote>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/说明文档" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/说明文档</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[评估]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_11</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_11</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、简介</h2>
+<p>这篇博客，<strong>主要给大家讲解我们在训练yolov8时生成的结果文件中各个图片及其中指标的含义</strong>，帮助大家更深入的理解，以及我们在评估模型时和发表论文时主要关注的参数有那些。本</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_11" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_11</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[绘图]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_12</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_12</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、本文介绍</h2>
+<p>本文给大家带来的是<strong>YOLOv8系列的绘图功能</strong>，我将向大家介绍YOLO系列的绘图功能。我们在进行实验时，经常需要比较多个结果，针对这一问题，我写了点代码来解决</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_12" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_12</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[数据集]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_13</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_13</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>YoloV8。YoloV8是一种高效的目标检测算法，它的训练需要高质量的数据集。然而，获取高质量的数据集是一项耗时且费力的任务。</p>
+<p>![](https://yangyang666.oss-cn-</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_13" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_13</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[报错]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_14</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_14</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、本文介绍</h2>
+<p>本文为专栏内读者和我个人在训练<strong>YOLOv8时遇到的各种错误解决方案</strong>，你遇到的问题本文基本上都能够解决。</p>
+<h2>二、 报错问题</h2>
+<p># 以下为</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_14" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_14</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[测试]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_15</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_15</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>测试</h1>
+<p>![<a href="https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/2719a5e7-d7bb-417b-a338-a22d881f1d72">https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/2719a5e7-d7bb-417b-a338-a22d881f1d72</a></p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_15" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_15</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[恒源云]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_2</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_2</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>恒源云</h1>
+<p>为当涉及到深度学习的训练任务时，GPU的计算能力是不可或缺的。相对于传统的中央处理器（CPU），图形处理器（GPU）具有更强大的并行计算能力，能够显著加速深度学习模型的训练过程。深度</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_2" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_2</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[YOLOv8目录结构]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_3</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_3</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>目录结构</h1>
+<h2>一、本文介绍</h2>
+<p>Hello，大家好这次给大家带来的不是改进，<strong>是整个YOLOv8项目的分析</strong>，<strong>整个系列大概会更新7-10篇左右的文章</strong>，从项目的目录到每</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_3" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_3</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[YOLOv8文件分析]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_4</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_4</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>文件分析</h1>
+<h2>一、本文介绍</h2>
+<p>本文给大家带来的是<strong>YOLOv8项目的解读</strong>，之前给大家分析了YOLOv8的项目文件分析，这一篇文章给大家带来的是模型训练从我们的yaml文件定义到</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_4" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_4</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/hello-world</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/hello-world</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/hello-world" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/hello-world</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[YOLOv8的训练自己的数据集]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_1</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_1</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、YOLOv8的简介</h2>
+<p>YOLO（You Only Look Once）系列算法因其高效、准确等特点而备受瞩目。由2023年Ultralytics公司发布了YOLO的**最</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_1" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_1</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+        <item>
+            <title><![CDATA[可视化热力图]]></title>
+            <link>https://sprightly-crepe-33cf05.netlify.app/posts/article_10</link>
+            <guid>https://sprightly-crepe-33cf05.netlify.app/posts/article_10</guid>
+            <pubDate>Sat, 05 Oct 2024 09:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、本文介绍</h2>
+<p>本文给大家带来的机制是的<strong>可视化热力图功能</strong>，热力图)作为我们论文当中的必备一环，可以展示出我们呈现机制的有效性，本文的内容支持YOLOv8最新版本，同时支持视</p>
+<br/><p>访问 <a href="https://sprightly-crepe-33cf05.netlify.app/posts/article_10" target="_blank">https://sprightly-crepe-33cf05.netlify.app/posts/article_10</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Louaq)</author>
+        </item>
+    </channel>
+</rss>
