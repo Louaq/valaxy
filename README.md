@@ -1,6 +1,6 @@
-# create-valaxy
+# create-valaxy (the next static blog)
 
-Example: [valaxy.site](https://valaxy.site)
+Example: [https://sprightly-crepe-33cf05.netlify.app/](https://sprightly-crepe-33cf05.netlify.app/)
 
 ## Usage
 
