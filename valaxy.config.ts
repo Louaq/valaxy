@@ -83,7 +83,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       color: 'dodgerblue',
     },
     {
-      name: '老婆列表',
+      name: 'girls列表',
       url: '/girls/',
       icon: 'i-ri-women-line',
       color: 'hotpink',
@@ -91,8 +91,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 	{
       name: '画廊',
       url: '/albums/',
-      icon: 'i-ri-gallery-view',
-      color: 'pink',
+      icon: 'i-ri-album-line',
+      color: 'hotpink',
     },
   ],
     footer: {

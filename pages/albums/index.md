@@ -5,8 +5,7 @@ updated: 2020-04-18 16:27:24
 layout: albums
 albums:
   - caption: 日常
-    url: /albums/daily
-    cover: https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/ComfyUI_01102_.png
-    desc: 我们一日日度过的所谓日常
+    url: /albums/loop
+    cover: https://cdn.jsdelivr.net/gh/YunYouJun/yun/images/meme/yun-good-with-text.jpg
 
 ---
