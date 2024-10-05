@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://sprightly-crepe-33cf05.netlify.app/',
   lang: 'zh-CN',
   title: 'BLOG',
   subtitle: '',
@@ -11,10 +11,6 @@ export default defineSiteConfig({
   },
   frontmatter: {
     time_warning: true,
-  },
-
-  comment: {
-      enable: true,
   },
   
   mediumZoom: { enable: true },
