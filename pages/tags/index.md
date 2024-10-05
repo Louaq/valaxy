@@ -1,4 +1,8 @@
 ---
 layout: tags
-date: 2024-08-24 19:12:39
+title: Louaq的小标签
+icon: i-ri-price-tag-3-line
+nav: false
+aside: false
+comment: false
 ---

@@ -75,21 +75,34 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
+	pages: [
+    {
+      name: '友情链接',
+      url: '/links/',
+      icon: 'i-ri-link',
+      color: 'dodgerblue',
+    },
+    {
+      name: '老婆列表',
+      url: '/girls/',
+      icon: 'i-ri-women-line',
+      color: 'hotpink',
+    },
+	{
+      name: '画廊',
+      url: '/albums/',
+      icon: 'i-ri-gallery-view',
+      color: 'pink',
+    },
+  ],
     footer: {
       since: 2024,
 	  
      
     },
+	
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
+  
   unocss: { safelist },
 })

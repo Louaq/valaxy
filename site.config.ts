@@ -11,12 +11,16 @@ export default defineSiteConfig({
     avatar: 'https://yangyang666.oss-cn-chengdu.aliyuncs.com/images/b.jpg',
 	name: 'Louaq',
     short_name: 'Louaq',
+	status: {
+	 emoji: '👨‍💻',
+	
+	},
   },
   description: '这是一个很棒的博客',
   frontmatter: {
     time_warning: true,
   },
-  
+  lastUpdated: true,
   mediumZoom: { enable: true },
   social: [
     {

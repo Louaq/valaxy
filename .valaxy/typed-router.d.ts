@@ -23,6 +23,8 @@ declare module 'vue-router/auto-routes' {
     '/404': RouteRecordInfo<'/404', '/404', Record<never, never>, Record<never, never>>,
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
+    '/albums/': RouteRecordInfo<'/albums/', '/albums', Record<never, never>, Record<never, never>>,
+    '/albums/daily': RouteRecordInfo<'/albums/daily', '/albums/daily', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/girls/': RouteRecordInfo<'/girls/', '/girls', Record<never, never>, Record<never, never>>,
@@ -40,6 +42,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/article_3': RouteRecordInfo<'/posts/article_3', '/posts/article_3', Record<never, never>, Record<never, never>>,
     '/posts/article_4': RouteRecordInfo<'/posts/article_4', '/posts/article_4', Record<never, never>, Record<never, never>>,
     '/posts/hello-world': RouteRecordInfo<'/posts/hello-world', '/posts/hello-world', Record<never, never>, Record<never, never>>,
+    '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
