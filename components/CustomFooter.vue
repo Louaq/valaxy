@@ -4,8 +4,7 @@
       <slot></slot>
     </div>
     <!-- 其他 Footer 内容 -->
-    <div class="copyright flex justify-center items-center gap-2" p="1"><span> © 2020 -  2024</span><!--v-if--><span>Krau</span></div>
-    <div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy" target="_blank" rel="noopener">Valaxy</a> v0.19.12 驱动</span> | <span>主题 - <a href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun" title="valaxy-theme-yun" target="_blank">Yun</a> v0.19.12</span></div>
+    <div class="copyright flex justify-center items-center gap-2" p="1"><span> © 2020 -  2024</span><!--v-if--><span>Louaq</span></div>
   </footer>
 </template>
 

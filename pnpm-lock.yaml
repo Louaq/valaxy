@@ -17,6 +17,9 @@ importers:
       valaxy-addon-components:
         specifier: ^0.0.4
         version: 0.0.4
+      valaxy-addon-lightgallery:
+        specifier: ^0.0.3
+        version: 0.0.3(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2))
       valaxy-addon-waline:
         specifier: ^0.2.0
         version: 0.2.0(typescript@5.6.2)(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2))
@@ -2061,6 +2064,10 @@ packages:
   leac@0.6.0:
     resolution: {integrity: sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==}
 
+  lightgallery@2.7.2:
+    resolution: {integrity: sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==}
+    engines: {node: '>=6.0.0'}
+
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
@@ -2838,6 +2845,11 @@ packages:
 
   valaxy-addon-components@0.0.4:
     resolution: {integrity: sha512-mpyDmQzBvzIR1PMEpDP6uVvx2YNVsApxAvLOMld4W+Rrygn+GzIc7h1HOQCOva6VYI3Lr9CheqI13gJlP2CHYg==}
+
+  valaxy-addon-lightgallery@0.0.3:
+    resolution: {integrity: sha512-fvw/8DBEgrcdEPHslOpdOvHOAxhxm1e8jGEaQhqNS6KY5YTTYvBGwl4vbadsGwAckES8lg0Wfvd0/9z+z7uTUA==}
+    peerDependencies:
+      valaxy: latest
 
   valaxy-addon-waline@0.2.0:
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
@@ -5256,6 +5268,8 @@ snapshots:
 
   leac@0.6.0: {}
 
+  lightgallery@2.7.2: {}
+
   linkify-it@5.0.0:
     dependencies:
       uc.micro: 2.1.0
@@ -6065,6 +6079,11 @@ snapshots:
   uuid@9.0.1: {}
 
   valaxy-addon-components@0.0.4: {}
+
+  valaxy-addon-lightgallery@0.0.3(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2)):
+    dependencies:
+      lightgallery: 2.7.2
+      valaxy: 0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2)
 
   valaxy-addon-waline@0.2.0(typescript@5.6.2)(valaxy@0.19.13(@babel/parser@7.25.7)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.0)(typescript@5.6.2)):
     dependencies:

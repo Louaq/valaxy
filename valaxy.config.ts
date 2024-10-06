@@ -1,6 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -56,11 +57,12 @@ export default defineValaxyConfig<UserThemeConfig>({
   siteConfig: {
     // 启用评论
     comment: {
-      enable: true
+      enable: true,
     },
     	
   },
   addons: [
+    addonLightGallery(),
     addonWaline({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
       serverURL: 'https://waline-comments-inky.vercel.app/',
@@ -88,7 +90,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       icon: 'i-ri-women-line',
       color: 'hotpink',
     },
-	{
+		{
       name: '画廊',
       url: '/albums/',
       icon: 'i-ri-album-line',
